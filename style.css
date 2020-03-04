@@ -1,0 +1,21 @@
+input{
+    height: 22px;
+    width: 350px;
+    font-size: 12px;
+}
+#sub{
+    background-color: rgb(204, 204, 204);
+    border: 1px;
+    box-shadow: 0;
+}
+#xing{
+    color: red;
+}
+p{
+    line-height: 10px;
+    font-size: 12px;
+}
+#school{
+    width: 354px;
+    height: 28px;
+}

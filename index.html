@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>学生信息</h1>
+    <fieldset style="width: 370px; height: 500px;">
+        <legend id="xing">学生档案</legend>
+        <form id="stu" method="get" action="#">
+            <p>姓名：</p>
+            <input type="text" name="name" required placeholder="请输入姓名"/><span id="xing">&nbsp;*</span>
+            <p>学号：</p>
+            <input type="text" name="no" required placeholder="请输入学号"/><span id="xing">&nbsp;*</span>
+            <p>手机号码：</p>
+            <input type="text" name="tel" required placeholder="请输入手机号"/><span id="xing">&nbsp;*</span>
+            <p>邮箱地址：</p>
+            <input type="email" name="email" required placeholder="请输入邮箱地址"/><span id="xing">&nbsp;*</span>
+            <p>录取学校：</p>
+            <input type="search" name="school" list="school-name"/ id="school">
+            <datalist id="school-name">
+                <option>河北师范大学</option>
+                <option>吉林大学</option>
+                <option>河北医科大学</option>
+                <option>中南大学</option>
+                <option>北京大学</option>
+                <option>清华大学</option>
+            </datalist>
+            <p>入学成绩:</p>
+            <input type="text" name="grade"/>
+            <p>入学时间：</p>
+            <input type="date" name="datetime"/>
+            <br><br>
+            <input type="submit" id="sub"/>
+        </form>
+    </fieldset>
+</body>
+</html>
